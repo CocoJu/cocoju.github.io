@@ -11,7 +11,7 @@ span {
     position: relative;
 }
 
-span:before {
+span:after {
     content: attr(data-accord);
     position: absolute;
     display: block;
@@ -23,6 +23,10 @@ span:before {
     color: darkslategray;
 }
 
-span.left4:before {
+span.left4:after {
     left: 15px;
+}
+
+span.white {
+    color: white;
 }
