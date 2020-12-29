@@ -3,6 +3,10 @@ p.low-height {
     line-height: 18px;
 }
 
+p.blue {
+    color: blue;
+}
+
 p.low-top {
     font-size: 18px;
     line-height: 18px;
